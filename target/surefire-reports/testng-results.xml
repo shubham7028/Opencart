@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-09T11:36:37 IST" name="Suite" finished-at="2024-09-09T11:38:07 IST" duration-ms="89642">
+    <groups>
+      <group name="master">
+        <method signature="TC007_EndToEndTesting.EndToEndTesting()[pri:0, instance:testCases.TC007_EndToEndTesting@ab7a938]" name="EndToEndTesting" class="testCases.TC007_EndToEndTesting"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-09-09T11:36:37 IST" name="Test" finished-at="2024-09-09T11:38:07 IST" duration-ms="89642">
+      <class name="testCases.TC007_EndToEndTesting">
+        <test-method is-config="true" signature="setupTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC007_EndToEndTesting@ab7a938]" started-at="2024-09-09T11:36:38 IST" name="setupTest" finished-at="2024-09-09T11:36:57 IST" duration-ms="19733" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="EndToEndTesting()[pri:0, instance:testCases.TC007_EndToEndTesting@ab7a938]" started-at="2024-09-09T11:36:57 IST" name="EndToEndTesting" finished-at="2024-09-09T11:38:05 IST" duration-ms="67545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndToEndTesting -->
+        <test-method is-config="true" signature="closeTest()[pri:0, instance:testCases.TC007_EndToEndTesting@ab7a938]" started-at="2024-09-09T11:38:05 IST" name="closeTest" finished-at="2024-09-09T11:38:07 IST" duration-ms="2140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- testCases.TC007_EndToEndTesting -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
